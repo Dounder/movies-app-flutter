@@ -33,6 +33,8 @@ class Movie {
   String? posterPath;
   String? releaseDate;
 
+  String? heroId;
+
   get fullPosterImg {
     if (posterPath != null) return 'https://image.tmdb.org/t/p/w500$posterPath';
 
